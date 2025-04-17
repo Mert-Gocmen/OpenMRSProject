@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Login Suite">
+    <test name="Login Test1">
+        <parameter name="username" value="admin1"/>
+        <parameter name="password" value="Admin1231"/>
+        <classes>
+            <class name="Project.US_401_CheckingLoginErrors"/>
+        </classes>
+    </test>
+    <test name="Login Test2">
+        <parameter name="username" value="admin1"/>
+        <parameter name="password" value="Admin1231"/>
+        <classes>
+            <class name="Project.US_401_CheckingLoginErrors"/>
+        </classes>
+    </test>
+    <test name="Login Test3">
+        <parameter name="username" value="admin1"/>
+        <parameter name="password" value="Admin1231"/>
+        <classes>
+            <class name="Project.US_401_CheckingLoginErrors"/>
+        </classes>
+    </test>
+    <test name="Login Test4">
+        <parameter name="username" value="admin1"/>
+        <parameter name="password" value="Admin1231"/>
+        <classes>
+            <class name="Project.US_401_CheckingLoginErrors"/>
+        </classes>
+    </test>
+    <test name="Login Test5">
+        <parameter name="username" value="admin1"/>
+        <parameter name="password" value="Admin1231"/>
+        <classes>
+            <class name="Project.US_401_CheckingLoginErrors"/>
+        </classes>
+    </test>
+    <test name="Valid Login Test">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="Admin123"/>
+        <classes>
+            <class name="Project.US_401_CheckingLoginErrors"/>
+        </classes>
+    </test>
+</suite>
