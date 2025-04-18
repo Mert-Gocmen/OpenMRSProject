@@ -21,6 +21,5 @@ public class US_403_LoggingOutoftheSystem extends BaseDriver{
         elements.exit.click();
         TearDown();
     }
-
-    }
+}
 
