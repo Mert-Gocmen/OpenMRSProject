@@ -6,11 +6,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class US_401_POM {
+
     public US_401_POM() {
         PageFactory.initElements(BaseDriver.driver,this);
     }
-
-
+  
     @FindBy(css = "[href='https://openmrs.org/tr/g%C3%B6steri/']")
     public WebElement demo;
 
@@ -38,3 +38,4 @@ public class US_401_POM {
     @FindBy(css = "[id='error-message']")
     public WebElement invalidUsername;
 }
+    } 
