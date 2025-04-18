@@ -10,6 +10,7 @@ public class US_401_POM {
         PageFactory.initElements(BaseDriver.driver,this);
     }
 
+
     @FindBy(css = "[href='https://openmrs.org/tr/g%C3%B6steri/']")
     public WebElement demo;
 
