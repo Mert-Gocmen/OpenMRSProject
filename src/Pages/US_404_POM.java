@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class US_404_POM extends BaseDriver {
+public class US_404_POM {
     public US_404_POM() { PageFactory.initElements(BaseDriver.driver, this); }
 
     @FindBy(id="username")
@@ -72,7 +72,7 @@ public class US_404_POM extends BaseDriver {
     @FindBy(id = "submit")
     public WebElement confirm;
 
-    @FindBy(xpath= "//*[text()='Created Patient Record: Gizem Tester']")
+    @FindBy(css= "[class='icon-ok medium']+p")
     public WebElement createdMsg;
 
 }

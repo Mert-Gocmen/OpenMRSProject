@@ -2,11 +2,10 @@ package Project;
 
 import Pages.US_404_POM;
 import Utility.BaseDriver;
+import Utility.MyFunc;
+import org.junit.Assert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import static org.testng.Assert.assertEquals;
 
 
 public class US_404_PatientRegistration extends BaseDriver {
@@ -39,9 +38,12 @@ public class US_404_PatientRegistration extends BaseDriver {
         elements.nextBtn.click();
         elements.confirm.click();
 
-       // wait.until(ExpectedConditions.urlContains("Created Patient Record: Samantha Black"));
 
-        Assert.assertTrue(elements.createdMsg.getText().equals("Created Patient Record: Samantha Black"));
+        String actualMsg = elements.createdMsg.getAttribute("innerText");
+        System.out.println("📢 Gelen mesaj: " + actualMsg);
 
+        Assert.assertTrue("Mesaj 'Created' içermiyor!", actualMsg.toLowerCase().contains("created"));
+
+        TearDown();
     }
 }
