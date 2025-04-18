@@ -3,7 +3,7 @@ package Project;
 import Pages.US_404_POM;
 import Utility.BaseDriver;
 import Utility.MyFunc;
-import org.junit.Assert;
+import org.testng.Assert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
@@ -42,7 +42,7 @@ public class US_404_PatientRegistration extends BaseDriver {
         String actualMsg = elements.createdMsg.getAttribute("innerText");
         System.out.println("📢 Gelen mesaj: " + actualMsg);
 
-        Assert.assertTrue("Mesaj 'Created' içermiyor!", actualMsg.toLowerCase().contains("created"));
+        Assert.assertTrue(actualMsg.toLowerCase().contains("created"), "Mesaj 'Created' içermiyor!");
 
         TearDown();
     }
