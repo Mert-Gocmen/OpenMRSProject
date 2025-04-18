@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="My Suite">
+    <test name="patientCheckout">
+        <classes>
+                <class name="Project.US_404_PatientRegistration" ></class>
+        </classes>
+    </test>
+</suite>
