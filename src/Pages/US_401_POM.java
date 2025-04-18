@@ -38,4 +38,3 @@ public class US_401_POM {
     @FindBy(css = "[id='error-message']")
     public WebElement invalidUsername;
 }
-    } 
