@@ -19,7 +19,6 @@ public class US_403_LoggingOutoftheSystem extends BaseDriver{
         wait.until(ExpectedConditions.urlContains("openmrs.org"));
         Assert.assertTrue(driver.getCurrentUrl().contains("openmrs.org"));
         elements.exit.click();
-
         TearDown();
     }
 

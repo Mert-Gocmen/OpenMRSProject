@@ -10,7 +10,6 @@ public class US_407_410_POM {
     public US_407_410_POM() {
         PageFactory.initElements(BaseDriver.driver, this);
     }
-
     @FindBy(xpath = "(//div[@id='apps']/a)[1]")
     public WebElement findPatientRecordButton;
 
