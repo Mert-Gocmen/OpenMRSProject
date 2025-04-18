@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class US_403_POM  {
-
     public US_403_POM() {
         PageFactory.initElements(BaseDriver.driver, this);
     }
