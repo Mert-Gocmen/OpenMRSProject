@@ -31,7 +31,7 @@ public class US_407_410_POM {
     @FindBy(xpath = "//*[contains(text(), 'deleted')]")
     public WebElement deleteSuccessMessage;
 
-    @FindBy(xpath = "(//div[@id='apps']/a)[7]")
+    @FindBy(xpath = "(//div[@id='apps']/a)[5]")
     public WebElement appointmentScheduling;
 
     @FindBy(xpath = "(//div[@id='apps']/div)[3]")
