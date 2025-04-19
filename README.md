@@ -112,12 +112,12 @@ The basic technologies and tools to be used in this project include:
   
 | Contributor                                               | Role                                  |
 |-----------------------------------------------------------|---------------------------------------|
-| [Mert Göçmen]()                                           | Project Lead & QA Automation Engineer |
-| [Mustafa İnan]()                                          | QA Automation Engineer                |
+| [Mert Göçmen](https://github.com/Mert-Gocmen)             | Project Lead & QA Automation Engineer |
+| [Mustafa İnan](https://github.com/Mustafainan11)          | QA Automation Engineer                |
 | [Görkem Kezer](https://github.com/Gorkem-Kezer)           | QA Automation Engineer                |
 | [Telman Bayramov](https://github.com/TELMAN-CREATOR)      | QA Automation Engineer                |
 | [Hilal Çelik](https://github.com/hilal-celik5)            | QA Automation Engineer                |
-| [Rukiye Bakaçhan]()                                       | QA Automation Engineer                |
+| [Rukiye Bakaçhan](https://github.com/RUKIYEE88)           | QA Automation Engineer                |
 
 ## License  
 
