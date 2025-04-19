@@ -2,7 +2,8 @@ package Project;
 
 import Pages.US_409_POM;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static Utility.BaseDriver.driver;
 import static Utility.BaseDriver.wait;
