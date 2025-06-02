@@ -9,13 +9,13 @@ import org.testng.annotations.Test;
 
 public class US_407_DeletePatient extends BaseDriver {
 
-    @Test(dataProvider = "patientInformation")
-    public void deletePatient(String patient) {
+    @Test
+    public void deletePatient() {
 
         US_407_410_POM elements = new US_407_410_POM();
 
         elements.findPatientRecordButton.click();
-        elements.searchInput.sendKeys(patient);
+        elements.searchInput.sendKeys("1007P6");
 
         wait.until(ExpectedConditions.elementToBeClickable(elements.patientRow));
         elements.patientRow.click();
@@ -27,10 +27,5 @@ public class US_407_DeletePatient extends BaseDriver {
         elements.confirmButton.click();
 
         Assert.assertTrue(elements.deleteSuccessMessage.getText().contains("deleted"));
-    }
-
-    @DataProvider
-    Object[] patientInformation() {
-        return new Object[]{"1007P6"};
     }
 }
